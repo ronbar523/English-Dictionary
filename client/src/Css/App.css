@@ -1,0 +1,50 @@
+.page {
+  width: 70%;
+  margin: auto;
+  margin-top: 3.5%;
+}
+
+.photo{
+  height: 80vh;
+  background-image: url("https://i.imagesup.co/images2/e576d1979ba75a6f49b4139c9c0788d050a62ed9.png");
+}
+
+.button-page{
+  margin-top: -5px;
+}
+
+/* Model css */
+.location {
+  height: 320px;
+  width: 70%;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.openModel {
+  opacity: 0.1;
+}
+
+
+/* Footer */
+@media screen and (min-width: 1268px) {
+  .footer {
+    margin-top: 70px;
+    margin-bottom: -14px;
+  }
+}
+
+@media screen and (min-width: 660px) and (max-width: 1267px) {
+  .footer {
+    margin-top: 230px;
+    margin-bottom: -14px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 660px) {
+  .footer {
+    margin-top: 300px;
+    margin-bottom: -14px;
+  }
+}
+
